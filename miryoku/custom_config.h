@@ -29,7 +29,7 @@ MIRYOKU_X(NUM,      "Num") \
 MIRYOKU_X(SYM,      "Sym") \
 MIRYOKU_X(FUN,      "Fun") \
 MIRYOKU_X(GAME,     "Game") \
-MIRYOKU_X(GAMEPLUS, "Game+")
+MIRYOKU_X(GAMEPLUS, "GamePlus")
 
 #define U_BASE     0
 #define U_EXTRA    1
