@@ -4,9 +4,6 @@
 
 #pragma once
 
-#define MIRYOKU_CLIPBOARD_WIN
-#define MIRYOKU_KLUDGE_MOUSEKEYSPR
-
 #define MIRYOKU_LAYER_GAME \
 &kp TAB,   &kp Q,     &kp W,     &kp E,     &kp R,          &trans,  &trans,   &trans,     &trans, &trans, \
 &kp LSHFT, &kp A,     &kp S,     &kp D,     &kp F,          &trans,  &trans,   &trans,     &trans, &trans, \
