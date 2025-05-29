@@ -15,9 +15,8 @@ U_NP,      U_NP,      &kp LALT,  &kp SPC,   &mo U_GAMEPLUS, &kp RET, &kp BSPC, &
 
 #define MIRYOKU_LAYERMAPPING_GAME MIRYOKU_MAPPING
 
-// TODO make all of: Z, X, C, V, useable (currently setup for Splitgate 2)
 #define MIRYOKU_LAYER_GAMEPLUS \
-&kp ESC,   &kp Z,     &kp W,     &kp V,     &kp T,     &trans,  &trans,   &trans,     &trans, &trans, \
+&kp ESC,   &kp Q,     &kp W,     &kp E,     &kp T,     &trans,  &trans,   &trans,     &trans, &trans, \
 &kp LSHFT, &kp A,     &kp S,     &kp D,     &kp G,     &trans,  &trans,   &trans,     &trans, &trans, \
 &kp LCTRL, &kp NUM_5, &kp NUM_6, &kp NUM_7, &kp NUM_8, &trans,  &trans,   &trans,     &trans, &trans, \
 U_NP,      U_NP,      &kp LALT,  &kp SPC,   &none,     &kp RET, &kp BSPC, &to U_BASE, U_NP,   U_NP
@@ -39,7 +38,7 @@ MIRYOKU_X(GAME,     "Game") \
 MIRYOKU_X(GAMEPLUS, "Game+")
 
 #define U_BASE     0
-#define U_EXTRA U_GAME
+#define U_EXTRA    U_GAME
 #define U_TAP      2
 #define U_BUTTON   3
 #define U_NAV      4
