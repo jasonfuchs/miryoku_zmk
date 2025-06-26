@@ -5,7 +5,7 @@
 #pragma once
 
 #define MIRYOKU_CLIPBOARD_WIN
-#define MIRYOKU_DOUBLE_TAP_GUARD
+#define MIRYOKU_KLUDGE_DOUBLETAPBOOT
 
 #define MIRYOKU_LAYER_GAME \
 &kp TAB,   &kp Q, &kp W,   &kp E,   &kp R,          &kp Y,   &kp U,    &kp I,      &kp O,   &kp P, \
