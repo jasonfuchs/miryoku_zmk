@@ -17,10 +17,10 @@ U_NP,      U_NP,  &kp ESC, &kp SPC, &mo U_GAMEPLUS, &kp RET, &kp BSPC, &to U_BAS
 
 // TODO seperate fun and num layers
 #define MIRYOKU_LAYER_GAMEPLUS \
-&trans,   &kp NUM_7, &kp NUM_8, &kp NUM_9, &kp T, U_NA,     &kp F7,    &kp F8,    &kp F9, &kp F12, \
-&kp LALT, &kp NUM_4, &kp NUM_5, &kp NUM_6, &kp G, U_NA,     &kp F4,    &kp F5,    &kp F6, &kp F11, \
-&trans,   &kp NUM_1, &kp NUM_2, &kp NUM_3, &kp B, U_NA,     &kp F1,    &kp F2,    &kp F3, &kp F10, \
-U_NP,     U_NP,      U_NA,      U_NA,      U_NA,  &kp RALT, &kp RCTRL, &kp RSHFT, U_NP,   U_NP
+&trans,   &kp NUM_7, &kp NUM_8, &kp NUM_9, &kp T, U_NU, U_NU, U_NU, U_NU, U_NU, \
+&kp LALT, &kp NUM_4, &kp NUM_5, &kp NUM_6, &kp G, U_NU, U_NU, U_NU, U_NU, U_NU, \
+&trans,   &kp NUM_1, &kp NUM_2, &kp NUM_3, &kp B, U_NU, U_NU, U_NU, U_NU, U_NU, \
+U_NP,     U_NP,      U_NA,      U_NA,      U_NA,  U_NU, U_NU, U_NU, U_NP, U_NP
 
 #define MIRYOKU_LAYERMAPPING_GAMEPLUS MIRYOKU_MAPPING
 
