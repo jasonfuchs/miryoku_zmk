@@ -8,18 +8,18 @@
 #define MIRYOKU_KLUDGE_DOUBLETAPBOOT
 
 #define MIRYOKU_LAYER_GAME \
-&kp TAB,   &kp Q, &kp W,   &kp E,   &kp R,          &kp Y,   &kp U,    &kp I,     &kp O,   &kp P, \
-&kp LSHFT, &kp A, &kp S,   &kp D,   &kp F,          &kp H,   &kp J,    &kp K,     &kp L,   &kp SQT, \
-&kp LCTRL, &kp Z, &kp X,   &kp C,   &kp V,          &kp N,   &kp M,    &kp COMMA, &kp DOT, &kp SLASH, \
-U_NP,      U_NP,  &kp ESC, &kp SPC, &mo U_GAMEPLUS, &kp RET, &kp BSPC, &kp DEL,   U_NP,    U_NP
+&kp TAB,   &kp Q, &kp W,    &kp E,   &kp R,          &kp Y,   &kp U,    &kp I,     &kp O,   &kp P, \
+&kp LSHFT, &kp A, &kp S,    &kp D,   &kp F,          &kp H,   &kp J,    &kp K,     &kp L,   &kp SQT, \
+&kp LCTRL, &kp Z, &kp X,    &kp C,   &kp V,          &kp N,   &kp M,    &kp COMMA, &kp DOT, &kp SLASH, \
+U_NP,      U_NP,  &kp LALT, &kp SPC, &mo U_GAMEPLUS, &kp RET, &kp BSPC, &kp DEL,   U_NP,    U_NP
 
 #define MIRYOKU_LAYERMAPPING_GAME MIRYOKU_MAPPING
 
 #define MIRYOKU_LAYER_GAMEPLUS \
-&trans,   &kp NUM_7, &kp NUM_8, &kp NUM_9, &kp T, U_NU, &kp F7,    &kp F8,       &kp F9, &kp F12, \
-&kp LALT, &kp NUM_4, &kp NUM_5, &kp NUM_6, &kp G, U_NU, &kp F4,    &kp F5,       &kp F6, &kp F11, \
-&trans,   &kp NUM_1, &kp NUM_2, &kp NUM_3, &kp B, U_NU, &kp F1,    &kp F2,       &kp F3, &kp F10, \
-U_NP,     U_NP,      U_NA,      U_NA,      U_NA,  U_NU, &kp NUM_0, &u_to_U_BASE, U_NP,   U_NP
+&trans, &kp NUM_7, &kp NUM_8, &kp NUM_9, &kp T, U_NU,    &kp F7,    &kp F8,       &kp F9, &kp F12, \
+&trans, &kp NUM_4, &kp NUM_5, &kp NUM_6, &kp G, U_NU,    &kp F4,    &kp F5,       &kp F6, &kp F11, \
+&trans, &kp NUM_1, &kp NUM_2, &kp NUM_3, &kp B, U_NU,    &kp F1,    &kp F2,       &kp F3, &kp F10, \
+U_NP,   U_NP,      U_NA,      U_NA,      U_NA,  &kp ESC, &kp NUM_0, &u_to_U_BASE, U_NP,   U_NP
 
 #define MIRYOKU_LAYERMAPPING_GAMEPLUS MIRYOKU_MAPPING
 
