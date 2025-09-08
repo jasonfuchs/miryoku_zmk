@@ -24,10 +24,10 @@ U_NP,      U_NP,      U_NA,      U_NA,      U_NA,  &kp RALT,       &kp RCTRL, &k
 #define MIRYOKU_LAYERMAPPING_GAMEPLUS MIRYOKU_MAPPING
 
 #define MIRYOKU_LAYER_GAMEFLY \
-&trans, &trans, &trans, &trans, &trans, &trans,     &trans,    &kp UP,    &trans,    &trans, \
-&trans, &trans, &trans, &trans, &trans, &trans,     &kp LEFT,  &kp DOWN,  &kp RIGHT, &trans, \
-&trans, &trans, &trans, &trans, &trans, &trans,     &trans,    &trans,    &trans,    &mkp RCLK, \
-U_NP,   U_NP,   &trans, &trans, &trans, &mo U_GAME, &mkp LCLK, &mkp MCLK, U_NP,      U_NP
+&trans, &trans, &trans, &trans, &trans, &trans,    &trans,    &kp UP,    &trans,    &trans, \
+&trans, &trans, &trans, &trans, &trans, &trans,    &kp LEFT,  &kp DOWN,  &kp RIGHT, &trans, \
+&trans, &trans, &trans, &trans, &trans, &trans,    &trans,    &trans,    &trans,    &trans, \
+U_NP,   U_NP,   &trans, &trans, &trans, &mkp MCLK, &mkp LCLK, &mkp RCLK, U_NP,      U_NP
 
 #define MIRYOKU_LAYERMAPPING_GAMEFLY MIRYOKU_MAPPING
 
