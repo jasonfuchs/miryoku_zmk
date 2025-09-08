@@ -16,12 +16,20 @@ U_NP,      U_NP,  &kp LALT, &kp SPC, &mo U_GAMEPLUS, &kp RET, &kp BSPC, &kp DEL,
 #define MIRYOKU_LAYERMAPPING_GAME MIRYOKU_MAPPING
 
 #define MIRYOKU_LAYER_GAMEPLUS \
-&trans, &kp NUM_7, &kp NUM_8, &kp NUM_9, &kp T, U_NU,    &kp F7,    &kp F8,       &kp F9, &kp F12, \
-&trans, &kp NUM_4, &kp NUM_5, &kp NUM_6, &kp G, U_NU,    &kp F4,    &kp F5,       &kp F6, &kp F11, \
-&trans, &kp NUM_1, &kp NUM_2, &kp NUM_3, &kp B, U_NU,    &kp F1,    &kp F2,       &kp F3, &kp F10, \
-U_NP,   U_NP,      U_NA,      U_NA,      U_NA,  &kp ESC, &kp NUM_0, &u_to_U_BASE, U_NP,   U_NP
+&kp GRAVE, &kp NUM_7, &kp NUM_8, &kp NUM_9, &kp T, &to U_BASE,     &kp F7,    &kp F8,    &kp F9, &kp F12, \
+&kp ESC,   &kp NUM_4, &kp NUM_5, &kp NUM_6, &kp G, &tog U_GAMEFLY, &kp F4,    &kp F5,    &kp F6, &kp F11, \
+&kp NUM_0, &kp NUM_1, &kp NUM_2, &kp NUM_3, &kp B, U_NU,           &kp F1,    &kp F2,    &kp F3, &kp F10, \
+U_NP,      U_NP,      U_NA,      U_NA,      U_NA,  &kp RALT,       &kp RCTRL, &kp RSHFT, U_NP,   U_NP
 
 #define MIRYOKU_LAYERMAPPING_GAMEPLUS MIRYOKU_MAPPING
+
+#define MIRYOKU_LAYER_GAMEFLY \
+&trans, &trans, &trans, &trans, &trans, &trans,     &trans,    &kp UP,    &trans,    &trans, \
+&trans, &trans, &trans, &trans, &trans, &trans,     &kp LEFT,  &kp DOWN,  &kp RIGHT, &trans, \
+&trans, &trans, &trans, &trans, &trans, &trans,     &trans,    &trans,    &trans,    &mkp RCLK, \
+U_NP,   U_NP,   &trans, &trans, &trans, &mo U_GAME, &mkp LCLK, &mkp MCLK, U_NP,      U_NP
+
+#define MIRYOKU_LAYERMAPPING_GAMEFLY MIRYOKU_MAPPING
 
 #define MIRYOKU_LAYER_LIST \
 MIRYOKU_X(BASE,     "Base") \
@@ -35,7 +43,8 @@ MIRYOKU_X(NUM,      "Num") \
 MIRYOKU_X(SYM,      "Sym") \
 MIRYOKU_X(FUN,      "Fun") \
 MIRYOKU_X(GAME,     "Game") \
-MIRYOKU_X(GAMEPLUS, "Game+")
+MIRYOKU_X(GAMEPLUS, "Game+") \
+MIRYOKU_X(GAMEFLY,  "Game/Fly")
 
 #define U_BASE     0
 #define U_EXTRA    U_GAME
@@ -49,3 +58,4 @@ MIRYOKU_X(GAMEPLUS, "Game+")
 #define U_FUN      9
 #define U_GAME     10
 #define U_GAMEPLUS 11
+#define U_GAMEFLY  12
